@@ -16,8 +16,11 @@ Use formulas to answer each question. Unless otherwise stated, fill in your answ
 2. What are the earliest and latest records that appear in this dataset?
 
 3. a. Create a new column to the right of the "Number of Motor Vehicles" column called "Single or Multiple". This column should contain "Single" if the number of vehicles is 1 and "Multiple" if it involved more than one vehicle.  
+* What about if “Number of Motor Vehicles” is 0? Will it be categorized in “Multiple?”[ST1]
 b. Are there any rows that involved zero vehicles? How many? Make sure that your formula accounts for these cases.  
-c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?  
+c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find[ST2]?  
+* All “Multiple”
+* Most accidents b/t 2021-2022
 d. What percentage of crashes are single-car?
 
 4. How many accidents occurred which are hit and run and had at least one injury?
@@ -34,3 +37,5 @@ b. Go to the "Collision Types" sheet and fill in the table to find the total num
 9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column. 
 
 10. Which interstate has the most accidents between I-24, I-40, I-65, and I-440? Answer this by counting the number of accidents that contain the strings "I 24", "I 40", "I 65", or "I 440" in their Street Address. Hint: You may need to make use of [wildcards](https://support.microsoft.com/en-us/office/using-wildcard-characters-in-searches-ef94362e-9999-4350-ad74-4d2371110adb) in combination with the CONCAT function to answer this. Then do the same but search for "I24", "I40", "I65", and "I440" and then "I-24", "I-40", "I-65", and "I-440". Sum the results to get a total count. 
+[ST1]Ask for clarification on 09/07 class
+[ST2]Are these the correct observations?
